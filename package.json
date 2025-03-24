@@ -1,0 +1,15 @@
+{
+  "name": "text-extraction-agent",
+  "version": "1.0.0",
+  "description": "FastAPI application for extracting text from images using AI",
+  "main": "vercel.py",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "python run.py",
+    "test": "echo \"No tests configured\""
+  },
+  "author": "",
+  "license": "MIT"
+} 
