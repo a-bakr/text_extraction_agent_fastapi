@@ -72,7 +72,3 @@ async def extract_text(
         return JSONResponse(content=response_data)
     else:
         return templates.TemplateResponse("index.html", {"request": request, **response_data, "show_results": True})
-
-# For local development only
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8002, reload=True)
